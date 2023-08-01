@@ -1,0 +1,11 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\BlazorExpenseTracker.API",
+    "\\BlazorExpenseTracker.Data",
+    "\\ExpenseTracker.UI",
+    "\\ExpenseTracker.UI\\Pages"
+  ],
+  "SelectedNode": "\\BlazorExpenseTracker.Data\\SqlConfiguration.cs",
+  "PreviewInSolutionExplorer": false
+}

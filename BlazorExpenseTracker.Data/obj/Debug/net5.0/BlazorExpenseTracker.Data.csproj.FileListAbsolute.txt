@@ -1,0 +1,15 @@
+C:\Users\NUEVO\Desktop\CHRIS\Udemy\ExpenseTracker\BlazorExpenseTracker.Data\bin\Debug\net5.0\BlazorExpenseTracker.Data.deps.json
+C:\Users\NUEVO\Desktop\CHRIS\Udemy\ExpenseTracker\BlazorExpenseTracker.Data\bin\Debug\net5.0\BlazorExpenseTracker.Data.dll
+C:\Users\NUEVO\Desktop\CHRIS\Udemy\ExpenseTracker\BlazorExpenseTracker.Data\bin\Debug\net5.0\ref\BlazorExpenseTracker.Data.dll
+C:\Users\NUEVO\Desktop\CHRIS\Udemy\ExpenseTracker\BlazorExpenseTracker.Data\bin\Debug\net5.0\BlazorExpenseTracker.Data.pdb
+C:\Users\NUEVO\Desktop\CHRIS\Udemy\ExpenseTracker\BlazorExpenseTracker.Data\bin\Debug\net5.0\BlazorExpenseTracker.Model.dll
+C:\Users\NUEVO\Desktop\CHRIS\Udemy\ExpenseTracker\BlazorExpenseTracker.Data\bin\Debug\net5.0\BlazorExpenseTracker.Model.pdb
+C:\Users\NUEVO\Desktop\CHRIS\Udemy\ExpenseTracker\BlazorExpenseTracker.Data\obj\Debug\net5.0\BlazorExpenseTracker.Data.csproj.AssemblyReference.cache
+C:\Users\NUEVO\Desktop\CHRIS\Udemy\ExpenseTracker\BlazorExpenseTracker.Data\obj\Debug\net5.0\BlazorExpenseTracker.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\NUEVO\Desktop\CHRIS\Udemy\ExpenseTracker\BlazorExpenseTracker.Data\obj\Debug\net5.0\BlazorExpenseTracker.Data.AssemblyInfoInputs.cache
+C:\Users\NUEVO\Desktop\CHRIS\Udemy\ExpenseTracker\BlazorExpenseTracker.Data\obj\Debug\net5.0\BlazorExpenseTracker.Data.AssemblyInfo.cs
+C:\Users\NUEVO\Desktop\CHRIS\Udemy\ExpenseTracker\BlazorExpenseTracker.Data\obj\Debug\net5.0\BlazorExpenseTracker.Data.csproj.CoreCompileInputs.cache
+C:\Users\NUEVO\Desktop\CHRIS\Udemy\ExpenseTracker\BlazorExpenseTracker.Data\obj\Debug\net5.0\BlazorExpenseTracker.Data.csproj.CopyComplete
+C:\Users\NUEVO\Desktop\CHRIS\Udemy\ExpenseTracker\BlazorExpenseTracker.Data\obj\Debug\net5.0\BlazorExpenseTracker.Data.dll
+C:\Users\NUEVO\Desktop\CHRIS\Udemy\ExpenseTracker\BlazorExpenseTracker.Data\obj\Debug\net5.0\ref\BlazorExpenseTracker.Data.dll
+C:\Users\NUEVO\Desktop\CHRIS\Udemy\ExpenseTracker\BlazorExpenseTracker.Data\obj\Debug\net5.0\BlazorExpenseTracker.Data.pdb
