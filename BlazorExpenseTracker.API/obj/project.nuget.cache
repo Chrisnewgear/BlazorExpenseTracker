@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "iTlRjw53czbGN4iRgKWRmV5jhdp6eiAS06T/1yj9LzctmIf/b/nPb/W9Vm3kwsblsOj157DVkYRSvDkxuwZNSw==",
+  "dgSpecHash": "MA3c3A8c/31L6immOjwArZF+KM5moaARACbK+pKt8CTkPYufd5CSL8OS1TTjtp98y5Usylcfugs65COympKG6g==",
   "success": true,
   "projectFilePath": "C:\\Users\\NUEVO\\Desktop\\CHRIS\\Udemy\\ExpenseTracker\\BlazorExpenseTracker.API\\BlazorExpenseTracker.API.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\NUEVO\\.nuget\\packages\\dapper\\2.0.143\\dapper.2.0.143.nupkg.sha512",
     "C:\\Users\\NUEVO\\.nuget\\packages\\microsoft.aspnetcore.authentication.abstractions\\2.2.0\\microsoft.aspnetcore.authentication.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\NUEVO\\.nuget\\packages\\microsoft.aspnetcore.authentication.core\\2.2.0\\microsoft.aspnetcore.authentication.core.2.2.0.nupkg.sha512",
     "C:\\Users\\NUEVO\\.nuget\\packages\\microsoft.aspnetcore.authorization\\2.2.0\\microsoft.aspnetcore.authorization.2.2.0.nupkg.sha512",

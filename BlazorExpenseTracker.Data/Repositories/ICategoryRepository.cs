@@ -7,10 +7,10 @@ using System.Threading.Tasks;
 
 namespace BlazorExpenseTracker.Data.Repositories
 {
-    internal interface ICategoryRepository
+    public interface ICategoryRepository
     {
         Task<IEnumerable<Category>> GetAllCategories();
-        Task<Category> GetCategoryDetaails(int id);
+        Task<Category> GetCategoryDetails(int id);
         Task<bool> InsertCategory(Category category);
         Task<bool> UpdateCategory(Category category);
         Task<bool> DeleteCategory(int id);

@@ -13,4 +13,8 @@
     <ProjectReference Include="..\BlazorExpenseTracker.Model\BlazorExpenseTracker.Model.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Controladores\" />
+  </ItemGroup>
+
 </Project>

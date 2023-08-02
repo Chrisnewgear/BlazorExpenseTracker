@@ -1,4 +1,5 @@
 ﻿using BlazorExpenseTracker.Model;
+using Dapper;
 using System;
 using System.Collections.Generic;
 using System.Data.SqlClient;
@@ -22,29 +23,50 @@ namespace BlazorExpenseTracker.Data.Repositories
             return new SqlConnection(_connectionString.ConnectionString);
         }
 
-        public Task<bool> DeleteCategory(int id)
+        public async Task<bool> DeleteCategory(int id)
         {
-            throw new NotImplementedException();
+            var db = dbConnection();
+            var sql = @"DELETE Categories WHERE Id = @Id";
+
+            var result = await db.ExecuteAsync(sql, new { Id = id});
+
+            return result > 0;
         }
 
-        public Task<IEnumerable<Category>> GetAllCategories()
+        public async Task<IEnumerable<Category>> GetAllCategories()
         {
-            throw new NotImplementedException();
+            var db = dbConnection();
+            var sql = @" SELECT id, Name FROM Categories";
+
+            return await db.QueryAsync<Category>(sql, new { });
         }
 
-        public Task<Category> GetCategoryDetaails(int id)
+        public async Task<Category> GetCategoryDetails(int id)
         {
-            throw new NotImplementedException();
+            var db = dbConnection();
+            var sql = @"SELECT Id, Name FROM Categories WHERE Id = @Id";
+
+            return await db.QueryFirstOrDefaultAsync<Category>(sql, new { Id = id });
         }
 
-        public Task<bool> InsertCategory(Category category)
+        public async Task<bool> InsertCategory(Category category)
         {
-            throw new NotImplementedException();
+            var db = dbConnection();
+            var sql = @"INSERT INTO  Categories (Name) Values(@Name)";
+
+            var result = await db.ExecuteAsync(sql, new { category.Name });
+
+            return result > 0;
         }
 
-        public Task<bool> UpdateCategory(Category category)
+        public async Task<bool> UpdateCategory(Category category)
         {
-            throw new NotImplementedException();
+            var db = dbConnection();
+            var sql = @"UPDATE Categories SET Name = @Name WHERE Id = @Id";
+
+            var result = await db.ExecuteAsync(sql, new { category.Name, category.Id });
+
+            return result > 0;
         }
     }
 }
