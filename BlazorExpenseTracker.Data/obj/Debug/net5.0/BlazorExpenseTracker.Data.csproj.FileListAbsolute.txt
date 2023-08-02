@@ -1,6 +1,5 @@
 C:\Users\NUEVO\Desktop\CHRIS\Udemy\ExpenseTracker\BlazorExpenseTracker.Data\bin\Debug\net5.0\BlazorExpenseTracker.Data.deps.json
 C:\Users\NUEVO\Desktop\CHRIS\Udemy\ExpenseTracker\BlazorExpenseTracker.Data\bin\Debug\net5.0\BlazorExpenseTracker.Data.dll
-C:\Users\NUEVO\Desktop\CHRIS\Udemy\ExpenseTracker\BlazorExpenseTracker.Data\bin\Debug\net5.0\ref\BlazorExpenseTracker.Data.dll
 C:\Users\NUEVO\Desktop\CHRIS\Udemy\ExpenseTracker\BlazorExpenseTracker.Data\bin\Debug\net5.0\BlazorExpenseTracker.Data.pdb
 C:\Users\NUEVO\Desktop\CHRIS\Udemy\ExpenseTracker\BlazorExpenseTracker.Data\bin\Debug\net5.0\BlazorExpenseTracker.Model.dll
 C:\Users\NUEVO\Desktop\CHRIS\Udemy\ExpenseTracker\BlazorExpenseTracker.Data\bin\Debug\net5.0\BlazorExpenseTracker.Model.pdb
@@ -13,3 +12,4 @@ C:\Users\NUEVO\Desktop\CHRIS\Udemy\ExpenseTracker\BlazorExpenseTracker.Data\obj\
 C:\Users\NUEVO\Desktop\CHRIS\Udemy\ExpenseTracker\BlazorExpenseTracker.Data\obj\Debug\net5.0\BlazorExpenseTracker.Data.dll
 C:\Users\NUEVO\Desktop\CHRIS\Udemy\ExpenseTracker\BlazorExpenseTracker.Data\obj\Debug\net5.0\ref\BlazorExpenseTracker.Data.dll
 C:\Users\NUEVO\Desktop\CHRIS\Udemy\ExpenseTracker\BlazorExpenseTracker.Data\obj\Debug\net5.0\BlazorExpenseTracker.Data.pdb
+C:\Users\NUEVO\Desktop\CHRIS\Udemy\ExpenseTracker\BlazorExpenseTracker.Data\obj\Debug\net5.0\refint\BlazorExpenseTracker.Data.dll
