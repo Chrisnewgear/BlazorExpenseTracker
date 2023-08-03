@@ -89,6 +89,13 @@ using BlazorExpenseTracker.Model;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 3 "C:\Users\NUEVO\Desktop\CHRIS\Udemy\ExpenseTracker\ExpenseTracker.UI\Pages\CategoryDetails.razor"
+using ExpenseTracker.UI.Interfaces;
+
+#line default
+#line hidden
+#nullable disable
     [global::Microsoft.AspNetCore.Components.RouteAttribute("/categorydetails")]
     public partial class CategoryDetails : global::Microsoft.AspNetCore.Components.ComponentBase
     {
@@ -98,18 +105,19 @@ using BlazorExpenseTracker.Model;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 31 "C:\Users\NUEVO\Desktop\CHRIS\Udemy\ExpenseTracker\ExpenseTracker.UI\Pages\CategoryDetails.razor"
+#line 35 "C:\Users\NUEVO\Desktop\CHRIS\Udemy\ExpenseTracker\ExpenseTracker.UI\Pages\CategoryDetails.razor"
        
     Category category = new Category();
 
-    protected void SaveCategory()
+    protected async Task SaveCategory()
     {
-
+        await CategoryService.SaveCategory(category);
     }
 
 #line default
 #line hidden
 #nullable disable
+        [global::Microsoft.AspNetCore.Components.InjectAttribute] private ICategoryService CategoryService { get; set; }
     }
 }
 #pragma warning restore 1591

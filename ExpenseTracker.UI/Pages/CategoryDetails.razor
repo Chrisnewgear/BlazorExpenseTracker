@@ -1,5 +1,9 @@
 ﻿@page "/categorydetails"
 @using BlazorExpenseTracker.Model;
+@using ExpenseTracker.UI.Interfaces;
+
+@inject ICategoryService CategoryService
+
 
 <h1>CategoryDetails</h1>
 
@@ -31,8 +35,8 @@
 @code {
     Category category = new Category();
 
-    protected void SaveCategory()
+    protected async Task SaveCategory()
     {
-
+        await CategoryService.SaveCategory(category);
     }
 }

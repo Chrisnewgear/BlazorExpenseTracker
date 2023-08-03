@@ -32,7 +32,7 @@ namespace ExpenseTracker.UI
             //services.AddScoped<ICategoryRepository, CategoryRepository>();
             services.AddRazorPages();
             services.AddServerSideBlazor().AddCircuitOptions(options => { options.DetailedErrors = true; });
-            services.AddHttpClient<ICategoryService, CategoryService>(client => { client.BaseAddress = new Uri("http://localhost:44320"); });
+            services.AddHttpClient<ICategoryService, CategoryService>(client => { client.BaseAddress = new Uri("https://localhost:44326"); });
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

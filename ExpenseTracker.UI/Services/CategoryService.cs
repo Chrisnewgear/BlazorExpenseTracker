@@ -42,9 +42,9 @@ namespace ExpenseTracker.UI.Services
                 Encoding.UTF8, "application/json");
 
             if (category.Id == 0)
-                _httpClient.PostAsync("api/category", categoryJson);
+                await _httpClient.PostAsync("api/category", categoryJson);
             else
-                _httpClient.PutAsync("api/category", categoryJson);
+                await  _httpClient.PutAsync("api/category", categoryJson);
         }
     }
 }
