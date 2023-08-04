@@ -24,15 +24,13 @@ namespace ExpenseTracker.UI.Services
 
         public async Task<IEnumerable<Category>> GetAllCategories()
         {
-            return await JsonSerializer.DeserializeAsync<IEnumerable<Category>>(
-            await _httpClient.GetStreamAsync("api/category"),
+            return await JsonSerializer.DeserializeAsync<IEnumerable<Category>>(await _httpClient.GetStreamAsync("api/category"),
             new JsonSerializerOptions() { PropertyNameCaseInsensitive = true });
         }
 
         public async Task<Category> GetCategoryDetails(int id)
         {
-            return await JsonSerializer.DeserializeAsync<Category>(
-            await _httpClient.GetStreamAsync($"api/category/{id}"),
+            return await JsonSerializer.DeserializeAsync<Category>(await _httpClient.GetStreamAsync($"api/category/{id}"),
             new JsonSerializerOptions() { PropertyNameCaseInsensitive = true });
         }
 
@@ -44,7 +42,7 @@ namespace ExpenseTracker.UI.Services
             if (category.Id == 0)
                 await _httpClient.PostAsync("api/category", categoryJson);
             else
-                await  _httpClient.PutAsync("api/category", categoryJson);
+                await _httpClient.PutAsync("api/category", categoryJson);
         }
     }
 }

@@ -90,7 +90,7 @@ using ExpenseTracker.UI.Shared;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 18 "C:\Users\NUEVO\Desktop\CHRIS\Udemy\ExpenseTracker\ExpenseTracker.UI\Shared\NavMenu.razor"
+#line 38 "C:\Users\NUEVO\Desktop\CHRIS\Udemy\ExpenseTracker\ExpenseTracker.UI\Shared\NavMenu.razor"
        
     private bool collapseNavMenu = true;
 

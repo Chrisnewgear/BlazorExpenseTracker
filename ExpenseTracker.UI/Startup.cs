@@ -1,3 +1,4 @@
+using BlazorExpenseTracker.Data;
 using BlazorExpenseTracker.Data.Repositories;
 using ExpenseTracker.UI.Interfaces;
 using ExpenseTracker.UI.Services;
@@ -10,6 +11,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using System;
 using System.Collections.Generic;
+using System.Data.SqlClient;
 using System.Linq;
 using System.Security.Policy;
 using System.Threading.Tasks;
@@ -29,10 +31,16 @@ namespace ExpenseTracker.UI
         // For more information on how to configure your application, visit https://go.microsoft.com/fwlink/?LinkID=398940
         public void ConfigureServices(IServiceCollection services)
         {
-            //services.AddScoped<ICategoryRepository, CategoryRepository>();
+            services.AddScoped<ICategoryRepository, CategoryRepository>();
+            services.AddControllers();
+
+            var sqlConnectionConfiguration = new SqlConfiguration(Configuration.GetConnectionString("SqlConnection"));
+            services.AddSingleton(sqlConnectionConfiguration);
+            
             services.AddRazorPages();
             services.AddServerSideBlazor().AddCircuitOptions(options => { options.DetailedErrors = true; });
-            services.AddHttpClient<ICategoryService, CategoryService>(client => { client.BaseAddress = new Uri("https://localhost:44326"); });
+
+            services.AddHttpClient<ICategoryService, CategoryService>(client => { client.BaseAddress = new Uri("https://localhost:44320"); });
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

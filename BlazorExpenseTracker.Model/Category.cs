@@ -11,8 +11,7 @@ namespace BlazorExpenseTracker.Model
     {
         public int Id { get; set; }
 
-        [Required(AllowEmptyStrings =false, ErrorMessage ="Category Name is Required")]
-
+        [Required(AllowEmptyStrings = false, ErrorMessage ="Category Name is Required")]
         public string Name { get; set; }
     }
 }

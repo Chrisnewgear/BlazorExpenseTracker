@@ -52,7 +52,7 @@ namespace BlazorExpenseTracker.Data.Repositories
         public async Task<bool> InsertCategory(Category category)
         {
             var db = dbConnection();
-            var sql = @"INSERT INTO  Categories (Name) Values(@Name)";
+            var sql = @"INSERT INTO  Categories(Name) Values(@Name)";
 
             var result = await db.ExecuteAsync(sql, new { category.Name });
 

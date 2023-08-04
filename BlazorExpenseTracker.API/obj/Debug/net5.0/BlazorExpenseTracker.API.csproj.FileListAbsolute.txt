@@ -5,7 +5,6 @@ C:\Users\NUEVO\Desktop\CHRIS\Udemy\ExpenseTracker\BlazorExpenseTracker.API\bin\D
 C:\Users\NUEVO\Desktop\CHRIS\Udemy\ExpenseTracker\BlazorExpenseTracker.API\bin\Debug\net5.0\BlazorExpenseTracker.API.runtimeconfig.json
 C:\Users\NUEVO\Desktop\CHRIS\Udemy\ExpenseTracker\BlazorExpenseTracker.API\bin\Debug\net5.0\BlazorExpenseTracker.API.runtimeconfig.dev.json
 C:\Users\NUEVO\Desktop\CHRIS\Udemy\ExpenseTracker\BlazorExpenseTracker.API\bin\Debug\net5.0\BlazorExpenseTracker.API.dll
-C:\Users\NUEVO\Desktop\CHRIS\Udemy\ExpenseTracker\BlazorExpenseTracker.API\bin\Debug\net5.0\ref\BlazorExpenseTracker.API.dll
 C:\Users\NUEVO\Desktop\CHRIS\Udemy\ExpenseTracker\BlazorExpenseTracker.API\bin\Debug\net5.0\BlazorExpenseTracker.API.pdb
 C:\Users\NUEVO\Desktop\CHRIS\Udemy\ExpenseTracker\BlazorExpenseTracker.API\bin\Debug\net5.0\Microsoft.OpenApi.dll
 C:\Users\NUEVO\Desktop\CHRIS\Udemy\ExpenseTracker\BlazorExpenseTracker.API\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
@@ -30,3 +29,19 @@ C:\Users\NUEVO\Desktop\CHRIS\Udemy\ExpenseTracker\BlazorExpenseTracker.API\obj\D
 C:\Users\NUEVO\Desktop\CHRIS\Udemy\ExpenseTracker\BlazorExpenseTracker.API\obj\Debug\net5.0\ref\BlazorExpenseTracker.API.dll
 C:\Users\NUEVO\Desktop\CHRIS\Udemy\ExpenseTracker\BlazorExpenseTracker.API\obj\Debug\net5.0\BlazorExpenseTracker.API.pdb
 C:\Users\NUEVO\Desktop\CHRIS\Udemy\ExpenseTracker\BlazorExpenseTracker.API\obj\Debug\net5.0\BlazorExpenseTracker.API.genruntimeconfig.cache
+C:\Users\NUEVO\Desktop\CHRIS\Udemy\ExpenseTracker\BlazorExpenseTracker.API\bin\Debug\net5.0\Dapper.dll
+C:\Users\NUEVO\Desktop\CHRIS\Udemy\ExpenseTracker\BlazorExpenseTracker.API\bin\Debug\net5.0\Microsoft.DotNet.PlatformAbstractions.dll
+C:\Users\NUEVO\Desktop\CHRIS\Udemy\ExpenseTracker\BlazorExpenseTracker.API\bin\Debug\net5.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\NUEVO\Desktop\CHRIS\Udemy\ExpenseTracker\BlazorExpenseTracker.API\bin\Debug\net5.0\Newtonsoft.Json.dll
+C:\Users\NUEVO\Desktop\CHRIS\Udemy\ExpenseTracker\BlazorExpenseTracker.API\bin\Debug\net5.0\System.Data.SqlClient.dll
+C:\Users\NUEVO\Desktop\CHRIS\Udemy\ExpenseTracker\BlazorExpenseTracker.API\bin\Debug\net5.0\runtimes\win-arm64\native\sni.dll
+C:\Users\NUEVO\Desktop\CHRIS\Udemy\ExpenseTracker\BlazorExpenseTracker.API\bin\Debug\net5.0\runtimes\win-x64\native\sni.dll
+C:\Users\NUEVO\Desktop\CHRIS\Udemy\ExpenseTracker\BlazorExpenseTracker.API\bin\Debug\net5.0\runtimes\win-x86\native\sni.dll
+C:\Users\NUEVO\Desktop\CHRIS\Udemy\ExpenseTracker\BlazorExpenseTracker.API\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\NUEVO\Desktop\CHRIS\Udemy\ExpenseTracker\BlazorExpenseTracker.API\bin\Debug\net5.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\NUEVO\Desktop\CHRIS\Udemy\ExpenseTracker\BlazorExpenseTracker.API\obj\Debug\net5.0\staticwebassets\BlazorExpenseTracker.API.StaticWebAssets.Pack.cache
+C:\Users\NUEVO\Desktop\CHRIS\Udemy\ExpenseTracker\BlazorExpenseTracker.API\obj\Debug\net5.0\staticwebassets\msbuild.BlazorExpenseTracker.API.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\NUEVO\Desktop\CHRIS\Udemy\ExpenseTracker\BlazorExpenseTracker.API\obj\Debug\net5.0\staticwebassets\msbuild.build.BlazorExpenseTracker.API.props
+C:\Users\NUEVO\Desktop\CHRIS\Udemy\ExpenseTracker\BlazorExpenseTracker.API\obj\Debug\net5.0\staticwebassets\msbuild.buildMultiTargeting.BlazorExpenseTracker.API.props
+C:\Users\NUEVO\Desktop\CHRIS\Udemy\ExpenseTracker\BlazorExpenseTracker.API\obj\Debug\net5.0\staticwebassets\msbuild.buildTransitive.BlazorExpenseTracker.API.props
+C:\Users\NUEVO\Desktop\CHRIS\Udemy\ExpenseTracker\BlazorExpenseTracker.API\obj\Debug\net5.0\refint\BlazorExpenseTracker.API.dll

@@ -9,8 +9,9 @@ namespace BlazorExpenseTracker.API.Controllers
     [ApiController]
     public class CategoryController : Controller
     {
-        private readonly CategoryRepository _categoryRepository;
-        public CategoryController(CategoryRepository categoryRepository)
+        private readonly ICategoryRepository _categoryRepository;
+
+        public CategoryController(ICategoryRepository categoryRepository)
         {
             _categoryRepository = categoryRepository;
         }
@@ -21,7 +22,7 @@ namespace BlazorExpenseTracker.API.Controllers
             return Ok(await _categoryRepository.GetAllCategories());
         }
 
-        [HttpGet("{Id}")]
+        [HttpGet("{id}")]
         public async Task<IActionResult> GetCategoryDetails(int id)
         {
             return Ok(await _categoryRepository.GetCategoryDetails(id));
@@ -57,7 +58,7 @@ namespace BlazorExpenseTracker.API.Controllers
 
             await _categoryRepository.UpdateCategory(category);
 
-            return NoContent();
+            return NoContent();//success
         }
 
         [HttpDelete("{id}")]
@@ -68,7 +69,7 @@ namespace BlazorExpenseTracker.API.Controllers
 
             await _categoryRepository.DeleteCategory(id);
 
-            return NoContent();
+            return NoContent();//success
         }
     }
 }
